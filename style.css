@@ -37,3 +37,29 @@ body{
     /* order:2; */
     /* flex-grow: 1; */
 }
+
+#section-2{
+    background-color: aqua;
+    height:100vh;
+}
+
+#box-1{
+    background-color:darkgoldenrod;
+    height:150px;
+    width:150px;
+    transform:rotate(45deg);
+}
+
+#box-2{
+    background-color:orangered;
+    height:150px;
+    width:150px;
+    transform:scale(1,2);
+}
+
+#box-3{
+    background-color:darkslateblue;
+    height:150px;
+    width:150px;
+    transform:skew(0,45deg);
+}
