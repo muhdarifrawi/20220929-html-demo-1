@@ -63,3 +63,33 @@ body{
     width:150px;
     transform:skew(0,45deg);
 }
+
+#section-3{
+    background-color:darkseagreen;
+    height:100vh;
+}
+
+#box-4{
+    background-color:firebrick;
+    height:150px;
+    width:150px;
+    animation-name:move-box;
+    animation-duration:5s;
+    animation-fill-mode: forwards;
+    position:relative;
+}
+
+@keyframes move-box {
+    0%{
+        left:0px;
+        
+    }
+    50%{
+        left:800px;
+        top:0px;
+    }
+    100%{
+        left:800px;
+        top:400px;
+    }
+}
